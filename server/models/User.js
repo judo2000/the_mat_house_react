@@ -21,6 +21,24 @@ const userSchema = new Schema(
       type: String,
       required: true,
     },
+    address: {
+      type: String,
+    },
+    address2: {
+      type: String,
+    },
+    city: {
+      type: String,
+    },
+    myState: {
+      type: String,
+    },
+    zip: {
+      type: String,
+    },
+    country: {
+      type: String,
+    },
   },
   // set this to use virtual below
   {
